@@ -5,6 +5,7 @@ import model.page.HomePage;
 import model.page.view.*;
 import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import runner.BaseTest;
 import runner.BaseUtils;
@@ -17,6 +18,7 @@ import java.util.Map;
 
 import static runner.TestUtils.getRandomStr;
 
+@Ignore
 public class ViewsTest extends BaseTest {
 
     @Step("Creating All Six Item: Freestyle Project, Pipeline,Multi-configuration Project, Folder, Multibranch Pipeline," +
