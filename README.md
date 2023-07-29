@@ -17,7 +17,7 @@ Install [IntellijIDEA](https://www.jetbrains.com/idea/download/#section=windows)
 ####
 * Go to the resources package and copy the file local.properties.TEMPLATE.
 Paste it into the resources package and rename the new file to local.properties .
-In the username and password fields enter the "admin" and password from the jenkins settings respectively
+In the username and password fields enter the "admin" and password from the jenkins settings respectively.
 ####
 * After installation, a command can be used in the terminal to <b>run the tests</b> locally: `mvn clean test`
 ####
